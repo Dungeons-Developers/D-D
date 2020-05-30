@@ -26,12 +26,11 @@ jobs:
     - name: actions-slack
       uses: innocarpe/actions-slack@v1
       with:
+        status: success_text, failure_text, cancelled_text
         # Slack message when succeeded.
         success_text: Succeeded 🚀
         # Slack message when failed.
         failure_text: Failed 😱
         # Slack message when cancelled.
         cancelled_text: Cancelled ⚠️
-    env:
-      CI: true
   
