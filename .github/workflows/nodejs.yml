@@ -32,6 +32,4 @@ jobs:
         failure_text: Failed 😱
         # Slack message when cancelled.
         cancelled_text: Cancelled ⚠️
-    env:
-      CI: true
   
